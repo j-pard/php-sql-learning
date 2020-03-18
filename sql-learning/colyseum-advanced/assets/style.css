@@ -20,3 +20,52 @@ h1 {
 .warning {
       color: orangered;
 }
+
+section.adminSection {
+      width: 800px;
+      margin: 50px auto;
+      padding: 50px;
+
+      background-color: #eee;
+      border: 1px solid gray;
+      border-radius: 20px;
+}
+
+#clientList {
+      width: 100%;
+      margin: 0 auto;
+      padding: 0;
+      border-collapse: collapse; 
+}
+
+tr:nth-child(odd) {
+      background-color: #fff;
+}
+
+th {
+      background-color: #eee;
+}
+
+th, td {
+      width: 110px;
+      padding: 5px 10px;
+      margin: 0;
+}
+
+td.center {
+      text-align: center;
+}
+
+.edit {
+      background-color: blue;
+      color: white;
+}
+
+.delete {
+      background-color: orangered;
+      color: white;
+}
+
+.inline {
+      display: inline-block;
+}
