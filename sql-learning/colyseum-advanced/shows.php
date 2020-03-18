@@ -10,6 +10,8 @@
       <title>Nos spectacles</title>
 </head>
 <body>
-      
+      <?php include 'views/_nav.php' ?>
+
+      <h1>Gestion des spectacles</h1>
 </body>
 </html>

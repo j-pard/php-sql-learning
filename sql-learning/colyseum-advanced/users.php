@@ -10,6 +10,8 @@
       <title>Membres</title>
 </head>
 <body>
-      
+      <?php include 'views/_nav.php' ?>
+
+      <h1>Gestion des membres</h1>
 </body>
 </html>
