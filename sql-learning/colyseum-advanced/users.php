@@ -14,7 +14,7 @@
 
       <h1>Gestion des clients</h1>
       
-      <form id="addClient" action="" method="POST">
+      <form id="addClient" action="controllers/_added.php" method="POST">
             <div class="formDiv">
                   <label for="lastname">Nom</label>
                   <input type="text" name="lastname" value="">
@@ -37,7 +37,7 @@
 
             <div class="formDiv">
                   <label for="cardNumber">Numéro de carte</label>
-                  <input type="number" name="cardNumber" value="0000">
+                  <input type="number" name="cardNumber" value="">
             </div>
 
             <div class="formDiv">

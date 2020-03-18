@@ -12,3 +12,11 @@ nav ul {
 h1 {
       text-align: center;
 }
+
+.success {
+      color: green;
+}
+
+.warning {
+      color: orangered;
+}
