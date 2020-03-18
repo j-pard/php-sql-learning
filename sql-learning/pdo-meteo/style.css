@@ -1,0 +1,45 @@
+body {
+      width: 100%;
+      text-align: center;
+}
+
+table {
+      margin: 50px auto;
+      border: 1px solid #AAA;
+      border-collapse: collapse;
+}
+
+table th {
+      background-color: #EEE;
+      padding: 10px;
+}
+
+table td {
+      border: 1px solid #AAA;
+      padding: 5px;
+}
+
+label {
+      display: block;
+}
+
+input {
+      margin: 5px auto 20px auto;
+}
+input.number {
+      width: 70px;
+}
+
+button {
+      display: block;
+      padding: 8px 16px;
+      margin: 50px auto;
+}
+
+.success {
+      color: lightgreen;
+}
+
+.error {
+      color: red;
+}
