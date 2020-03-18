@@ -1,5 +1,5 @@
 <?php
-      require 'components/_connect.php';
+      require 'controllers/_connect.php';
 ?>
 
 <!DOCTYPE html>
@@ -12,7 +12,7 @@
 </head>
 <body>
       <?php include 'views/_nav.php' ?>
-      
+
       <h1>Colyseum - Admin pannel</h1>
 </body>
 </html>

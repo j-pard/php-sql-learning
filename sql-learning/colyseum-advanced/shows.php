@@ -1,5 +1,5 @@
 <?php
-      require 'components/_connect.php';
+      require 'controllers/_connect.php';
 ?>
 <!DOCTYPE html>
 <html lang="fr">

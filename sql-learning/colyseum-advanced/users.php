@@ -1,5 +1,5 @@
 <?php
-      require 'components/_connect.php';
+      require 'controllers/_connect.php';
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -12,6 +12,37 @@
 <body>
       <?php include 'views/_nav.php' ?>
 
-      <h1>Gestion des membres</h1>
+      <h1>Gestion des clients</h1>
+      
+      <form id="addClient" action="" method="POST">
+            <div class="formDiv">
+                  <label for="lastname">Nom</label>
+                  <input type="text" name="lastname" value="">
+            </div>
+
+            <div class="formDiv">
+                  <label for="firstname">Prénom</label>
+                  <input type="text" name="firstname" value="">
+            </div>
+
+            <div class="formDiv">
+                  <label for="birthdate">Date de naissance</label>
+                  <input type="date" name="birthdate" value="">
+            </div>
+
+            <div class="formDiv">
+                  <label for="hasCard">Possède une carte ? </label>
+                  <input type="checkbox" name="hasCard" id="">
+            </div>
+
+            <div class="formDiv">
+                  <label for="cardNumber">Numéro de carte</label>
+                  <input type="number" name="cardNumber" value="0000">
+            </div>
+
+            <div class="formDiv">
+                  <input type="submit" value="Ajouter">
+            </div>
+      </form>
 </body>
 </html>
